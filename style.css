@@ -1,0 +1,14 @@
+body {
+    background: #191622;
+    color: #fff;
+}
+
+header {
+    background-color: red;
+    /* display: flex; */
+}
+
+.logo {
+    background-color: blue;
+    width: 300px;
+}
