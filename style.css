@@ -91,3 +91,32 @@ ul li a {
   margin-left: 26px;
   
 }
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    font-size: 62px;
+    font-weight: 800px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title h2 {
+    font-size: 20px;
+    font-weight:  400;
+    color: #81AFDD;
+    padding-top: 33px;
+}
+.image-content img {
+    width: 668px;
+    height: 700px;
+}
