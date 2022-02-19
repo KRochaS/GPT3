@@ -73,11 +73,9 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
 
 .button a {
-  
   font-size: 18px;
   font-weight: 500;
 }
@@ -89,34 +87,61 @@ ul li a {
   border: none;
   border-radius: 5px;
   margin-left: 26px;
-  
 }
 
 .content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  padding-top: 103px;
+}
+
+.content-main {
+  display: flex;
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .title h1 {
-    font-size: 62px;
-    font-weight: 800px;
-    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 62px;
+  font-weight: 800px;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title h2 {
-    font-size: 20px;
-    font-weight:  400;
-    color: #81AFDD;
-    padding-top: 33px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #81afdd;
+  padding-top: 33px;
 }
+
+.input  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title input {
+  margin-top: 52px;
+  border: none;
+  width: 630px;
+  height: 63px;
+}
+
+.input button {
+  width: 174px;
+  height: 73px;
+  background-color: var(--color-button);
+  border: none;
+  border-radius: 5px;
+}
+
 .image-content img {
-    width: 668px;
-    height: 700px;
+  width: 668px;
+  height: 700px;
 }
