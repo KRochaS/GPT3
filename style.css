@@ -18,6 +18,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(/assets/blur-background.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 a {
@@ -40,6 +43,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  
 }
 
 .menu {
@@ -94,6 +98,7 @@ ul li a {
   align-items: space-between;
   flex-direction: column;
   padding-top: 103px;
+ 
 }
 
 .content-main {
@@ -125,23 +130,50 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+   
+}
+
+input {
+    color: #3D6184;
+    padding-left: 32px;
+    font-size: 20px;
+    outline: none;
 }
 
 .title input {
   border: none;
   width: 630px;
   height: 63px;
+  opacity: 0.3;
+  background: #052D56;
+  
 }
 
 .input button {
   width: 174px;
-  height: 73px;
+  height: 100%;
   background-color: var(--color-button);
   border: none;
   border-radius: 5px;
+  color: var(--text-color-links);
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .image-content img {
   width: 668px;
   height: 700px;
+  transform: translate(20%, -15%);
+}
+
+.persons {
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+}
+
+.persons p {
+    margin-left: 14px;
+    font-size: 12px;
+    color: var(--text-color-links);
 }
