@@ -214,6 +214,9 @@ hr {
 
 .middle-info {
   display: flex;
+  padding: 0 57px 92px 57px;
+  justify-content:space-between;
+  align-items: center;
 }
 
 .title-middle {
@@ -222,4 +225,14 @@ hr {
   background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  max-width: 470px;
+
+}
+
+
+.subtitle-middle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f49867;
+    margin-left: auto;
 }
