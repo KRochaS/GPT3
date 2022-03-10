@@ -21,6 +21,7 @@ body {
   background-image: url(/assets/blur-background.png);
   background-repeat: no-repeat;
   background-position: top left;
+  overflow-x: hidden;
 }
 
 a {
@@ -331,4 +332,19 @@ h3 {
   background-size: contain;
   left: -20vw;
   top: 0;
+}
+
+.vr-image {
+  display: flex;
+  max-width: 1044px;
+}
+figure {
+  margin-right: 19px;
+}
+figure img {
+  width: 546px;
+  height: 607px;
+}
+
+.text-right-figure {
 }
