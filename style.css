@@ -518,3 +518,25 @@ figure img {
   color: var(--text-color-links);
   margin-bottom: 12px;
 }
+
+.footer {
+  background: #031b34;
+  width: 100vw;
+}
+
+.title-footer {
+  padding: 150px 0 64px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-footer h3 {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-footer button {
+  margin-top: 64px;
+}
