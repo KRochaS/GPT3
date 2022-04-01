@@ -551,7 +551,36 @@ figure img {
 }
 
 .footer-navigation {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 205px 102px 205px;
+  display: flex;
+  max-width: 1029px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  min-width: 118px;
+}
+
+.navigation-logo img {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.navigation-logo h3 {
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-direction: column;
+  padding-right: 237px;
+}
+
+.links-menu {
+  display: flex;
+  flex-direction: column;
+  min-width: 72px;
 }
