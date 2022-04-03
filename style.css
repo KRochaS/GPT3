@@ -69,7 +69,7 @@ ul {
   gap: 54px;
 }
 
-ul li a {
+nav ul li a {
   font-size: 18px;
   font-weight: 500;
 }
@@ -533,11 +533,17 @@ figure img {
 }
 
 .title-footer h3 {
-  font-size: 34px;
+  font-size: 56px;
+  line-height: 56px;
   font-weight: 800;
   background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.title-footer span {
+  display: flex;
+  justify-content: center;
 }
 
 .title-footer button {
@@ -575,12 +581,45 @@ figure img {
 
 .navigation-menu {
   display: flex;
-  flex-direction: column;
-  padding-right: 237px;
+  margin-left: 237px;
+  gap: 100px;
+  width: 100%;
 }
 
-.links-menu {
+.links-menu ul,
+.company-menu ul,
+.get-in-touch-menu ul {
   display: flex;
   flex-direction: column;
-  min-width: 72px;
+  gap: 32px;
+}
+
+.get-in-touch-menu {
+  max-width: 116px;
+}
+
+.links-menu li,
+.company-menu li,
+.get-in-touch-menu li {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-color-links);
+}
+
+.links-menu h3,
+.company-menu h3,
+.get-in-touch-menu h3 {
+  font-size: 14px;
+  color: var(--text-color-links);
+  font-weight: 700;
+  padding-bottom: 34px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 82px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-color-links);
+  padding-bottom: 26px;
 }
